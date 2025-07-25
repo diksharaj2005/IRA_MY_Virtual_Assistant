@@ -37,13 +37,14 @@ span {
   background: linear-gradient(to right, rgb(80, 184, 248), rgb(251, 82, 192));
   background-clip: text;
   color: transparent;
-  font-size: 2vmax;
-  padding: 1.5rem;
+  font-size: 1.8vmax;
+/* margin:10px; */
+/*   padding: 10px 45px; */
   font-family: monospace;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 2px solid rgba(255, 255, 255, 0.75); /* blinking cursor */
-  width: 0;
+  border-right: 2px solid rgba(255, 255, 255, 0.75); 
+  width: 18%;
   animation: typing 4s steps(40, end) forwards, blink 0.75s step-end infinite;
 }
 
@@ -53,7 +54,7 @@ span {
     width: 0;
   }
   to {
-    width: 43ch; 
+    width: 42ch; 
   }
 }
 
@@ -116,4 +117,8 @@ p{
     margin-top: -60px;
     /* padding: 0.9rem; */
     margin-bottom: -40px;
+}
+.footer{
+  bottom:0;
+  left: 0;
 }

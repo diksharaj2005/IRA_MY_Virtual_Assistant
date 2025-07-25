@@ -46,6 +46,9 @@ const App = () => {
           </div>}
        
       </div>
+      <div className="footer">
+        <p>Made with <strong>❤️</strong> by Diksha </p>
+      </div>
     </div>
   );
 };
