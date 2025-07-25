@@ -34,8 +34,7 @@ Deployment: GitHub Pages / Vercel / Netlify (customizable)
 ---
  Installation
 ```bash
-Copy
-Edit
+
 git clone https://github.com/diksha2005/IRA_MY_Virtual_Assistant.git
 cd ai-voice-virtual-assistant
 npm install
