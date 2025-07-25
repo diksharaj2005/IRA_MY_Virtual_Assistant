@@ -1,12 +1,33 @@
-# React + Vite
+IRA : AI Voice Virtual Assistant 
+A smart, interactive AI-powered virtual assistant built with React.js and Speech Recognition/Synthesis APIs. This project enables users to interact through voice commands, providing responses and performing actions like:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Answering general questions
+Telling the current time and date
+Opening websites (e.g., YouTube, Google)
+Performing simple calculations
+Responding with natural-sounding speech
 
-Currently, two official plugins are available:
+Designed with a sleek and responsive UI, it mimics the behavior of modern voice assistants (like Siri or Alexa) — but runs entirely in your browser!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ Features
+Real-time voice recognition (Web Speech API)
+Text-to-speech feedback (Speech Synthesis)
+Intelligent command handling with custom logic
+Stylish animated background and modern UI
+Fully responsive React front-end
 
-## Expanding the ESLint configuration
+ Tech Stack
+Frontend: React.js, CSS3
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+APIs: Web Speech API (SpeechRecognition, SpeechSynthesis)
+
+Deployment: GitHub Pages / Vercel / Netlify (customizable)
+
+📦 Installation
+```bash
+Copy
+Edit
+git clone https://github.com/diksha2005/IRA_MY_Virtual_Assistant.git
+cd ai-voice-virtual-assistant
+npm install
+npm start
