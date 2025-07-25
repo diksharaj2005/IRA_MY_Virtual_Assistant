@@ -10,8 +10,8 @@ Responding with natural-sounding speech
 ---
 Designed with a sleek and responsive UI, it mimics the behavior of modern voice assistants (like Siri or Alexa) — but runs entirely in your browser!
 ---
- Features
-Real-time voice recognition (Web Speech API)
+ *Features*
+``Real-time voice recognition (Web Speech API)
 Text-to-speech feedback (Speech Synthesis)
 Intelligent command handling with custom logic
 Stylish animated background and modern UI
@@ -22,9 +22,8 @@ Frontend: React.js, CSS3
 
 APIs: Web Speech API (SpeechRecognition, SpeechSynthesis)
 
-Deployment: GitHub Pages / Vercel / Netlify (customizable)
 ---
-📦 Installation
+ Installation
 ```bash
 Copy
 Edit
