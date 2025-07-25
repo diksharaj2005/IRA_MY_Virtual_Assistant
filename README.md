@@ -1,5 +1,5 @@
----
-IRA : AI Voice Virtual Assistant
+
+IRA:AI Voice Virtual Assistant
 ---
 A smart, interactive AI-powered virtual assistant built with React.js and Speech Recognition/Synthesis APIs. This project enables users to interact through voice commands, providing responses and performing actions like:
 
