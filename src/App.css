@@ -1,0 +1,119 @@
+.main {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: #0a0a0a; */
+    margin-top: -2rem;
+    padding: 1rem;
+    position: relative;
+    z-index: 30;
+    gap: 10px;
+}
+
+#ira {
+    height: 55%;
+    border-radius: 30%;
+    animation: glow 3s infinite ease-in-out;
+    transition: box-shadow 0.3s ease-in-out;
+    /* margin-bottom: 1.5rem; */
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 45px rgba(79, 187, 237, 0.6), 0 0 30px rgba(0, 123, 255, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 55px rgba(192, 142, 167, 0.7), 0 0 50px rgba(255, 105, 180, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 65px rgba(59, 196, 254, 0.6), 0 0 30px rgba(0, 123, 255, 0.4);
+  }
+}
+span {
+  background: linear-gradient(to right, rgb(80, 184, 248), rgb(251, 82, 192));
+  background-clip: text;
+  color: transparent;
+  font-size: 2vmax;
+  padding: 1.5rem;
+  font-family: monospace;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid rgba(255, 255, 255, 0.75); /* blinking cursor */
+  width: 0;
+  animation: typing 4s steps(40, end) forwards, blink 0.75s step-end infinite;
+}
+
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 43ch; 
+  }
+}
+
+@keyframes blink {
+  0%, 100% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgba(255, 255, 255, 0.75);
+  }
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  /* margin-top: 1.5rem; */
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 13px;
+  background: linear-gradient(to right, rgb(80, 184, 248), rgb(251, 82, 192));
+  color: white;
+  background-clip: border-box;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+  z-index: 100;
+}
+
+button:hover {
+  box-shadow: 0 0 15px rgba(243, 245, 246, 0.6),
+              0 0 30px rgba(0, 123, 255, 0.4),
+              0 0 60px rgba(0, 217, 255, 0.9);
+}
+.speakImg{
+    width: 120px;
+    margin-top: 1px;
+    /* padding: 0.9rem; */
+    margin-bottom: -20px;
+}
+p{
+  font-size: 1.5vmax;
+  color: white;
+  text-align: center;
+  padding: opx 40px;
+}
+.responseDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.aivoice{
+    width: 40vh;
+    height: 170px;
+    margin-top: -60px;
+    /* padding: 0.9rem; */
+    margin-bottom: -40px;
+}
